@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #F2F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px 30px;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.logoHeading {
+    width: 166px;
+    color: #333333;
+    font: bold;
+}
+
+.logoP2 {
+    width: 387px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Dashborad left */
+.dashboard {
+    background-color: #F9FBFE;
+    display: flex;
+    padding-bottom: 30px;
+}
+.menuArrow{
+    position: relative;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 2px 22px 58px #0000000D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 351px;
+    cursor: pointer;
+    margin-left: 237px;
+}
+.menuArrow i{
+    color: #037a92;
+    font-size: 35px;
+}
+.dflex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dflex img {
+    width: 28px;
+    height: 28px;
+}
+.userMap p:hover{
+    cursor: pointer;
+}
+
+.dashboardLeft {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20%;
+    height: 560px;
+    padding-top: 70px;
+    padding-left: 40px;
+    border-bottom-right-radius: 190px;
+}
+
+.dashboardRight {
+    width: 70%;
+}
+
+.userMap p:hover {
+    color: #F29441;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button::after {
+    background-image: url('./img/arrow-down.png') !important;
+    filter: invert(1);
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.dashboardTitle {
+    padding-top: 64px;
+    padding-left: 40px;
+}
+
+.formWidth {
+    width: 45%;
+}
+.formWidth label{
+    font-size: 12px;
+}
+.formWidth input{
+    font-size: 12px;
+    padding-left: 4px;
+}
+.formWidth select{
+    font-size: 12px;
+}
+
+.leftRowPadding {
+    margin-top: 0px !important;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.fileUploadBox {
+    box-sizing: 0px 0px 10px #0000000D;
+    background-color: #FFFFFF;
+    width: 380px;
+    height: 220px;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+}
+
+.fileUpload {
+    margin: 12px 12px 16px 12px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.fileUpload p {
+    margin-bottom: 0px;
+}
+
+.fileBox {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-shadow: 0px 0px 10px #0000000D;
+}
+.bannerImg{
+    margin-top: -200px;
+}
+.bannerImg img{
+    width: 490px;
+    height: 500px;
+}
