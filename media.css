@@ -2,37 +2,47 @@
 @media only screen and (max-width: 600px) {
     .logoP2{
         display: none;
+    } 
+    .leftRowPadding{
+        flex-direction: column;
     }
     .userDetails{
         display: none;
     }
-    .menuArrow{
-        margin-left: -14px;
+    .dashboard {
+        justify-content: center;
     }
     .dashboardLeft{
         display: none;
     }
-    .dashboardTitle p{
-        font-size: 30px;
+    .menuArrow{
+        display: none;
     }
-    .leftRowPadding{
-        padding-right: 30px;
-        flex-direction: column;
+    .menuSidebar{
+        display: block !important;
+    }
+    .dashboardLeftSidebar{
+        background-color: white;
+        position: absolute;
+    }
+    .dashboardTitle p{
+        text-align: center;
+        font-size: 25px !important;
+    }
+    .formWidth {
+        width: 80%;
         justify-content: center;
     }
-    .fileUploadBox{
-        width: 100%;
+    .fileUploadBox {
+        width: 240px;
+        height: 226px;  
     }
-    .dashboardRight{
-        width: 100%;
-    }
-    .formWidth{
-        width: 100%;
+    .bannerImg{
+        margin-top: -165x;
     }
     .bannerImg img{
-        margin-top: 280px;
-        width: 100%;
-        height: 100%;
+        min-width: 270px;
+        max-width: 100%;
     }
 }
 
@@ -40,69 +50,51 @@
 @media only screen and (max-width: 768px) {
     .logoP2{
         display: none;
+    } 
+    .leftRowPadding{
+        flex-direction: column;
     }
     .userDetails{
         display: none;
     }
-    .menuArrow{
-        margin-left: -14px;
+    .dashboard {
+        justify-content: center;
     }
     .dashboardLeft{
         display: none;
     }
-    .dashboardTitle p{
-        font-size: 30px;
+    .menuArrow{
+        display: none;
     }
-    .leftRowPadding{
-        padding-right: 30px;
-        flex-direction: column;
+    .menuSidebar{
+        display: block !important;
+    }
+    .dashboardLeftSidebar{
+        background-color: white;
+        position: absolute;
+    }
+    .dashboardTitle p{
+        text-align: center;
+        font-size: 25px !important;
+    }
+    .formWidth {
+        width: 80%;
         justify-content: center;
     }
-    .fileUploadBox{
-        width: 100%;
+    .fileUploadBox {
+        width: 240px;
+        height: 226px;  
     }
-    .dashboardRight{
-        width: 100%;
-    }
-    .formWidth{
-        width: 100%;
+    .bannerImg{
+        margin-top: -112px;
     }
     .bannerImg img{
-        margin-top: 60px;
-        width: 100%;
-        height: 100%;
+        min-width: 270px;
+        max-width: 100%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-    .logoP2{
-        display: none;
-    }
-    .dashboardLeft{
-        display: none;
-    }
-    .dashboardTitle p{
-        font-size: 30px;
-    }
-    .menuArrow{
-        margin-left: -14px;
-    }
-    .leftRowPadding{
-        padding-right: 30px;
-    }
-    .fileUploadBox{
-        width: 100%;
-    }
-    .dashboardRight{
-        width: 100%;
-    }
-    .formWidth{
-        width: 100%;
-    }
-    .bannerImg img{
-        margin-top: 60px;
-        width: 100%;
-        height: 100%;
-    }
+    
 }
