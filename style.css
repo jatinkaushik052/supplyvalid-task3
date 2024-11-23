@@ -143,7 +143,10 @@ nav {
     padding-top: 64px;
     padding-left: 40px;
 }
-
+.dashboardTitle p{
+    color:  #037A92;
+    font-size: 35px;
+}
 .formWidth {
     width: 45%;
 }
@@ -223,8 +226,8 @@ nav {
     margin-top: -200px;
 }
 .bannerImg img{
-    min-width: 373px;
-    max-width: 100%;
-    /* width: 490px; */
+    /* min-width: 373px;
+    max-width: 100%; */
+    width: 100%;
     height: 500px;
 }
