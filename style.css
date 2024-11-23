@@ -41,8 +41,7 @@ nav {
     padding-bottom: 30px;
 }
 .menuArrow{
-    position: relative;
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 50px;
     background: white;
@@ -51,13 +50,49 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 351px;
     cursor: pointer;
-    margin-left: 237px;
+    margin-top: 15em;
+    margin-left: 15em;
+}
+#onBtn{
+ display: none;
 }
 .menuArrow i{
     color: #037a92;
     font-size: 35px;
+}
+.menuSidebar{
+    display: none !important;
+    color: #037a92;
+    font-size: 35px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 2px 22px 58px #0000000D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 6em;
+    text-align: center;
+    margin-left: -10px;
+    z-index: 99;
+}
+.dashboardLeftSidebar{
+    display: none;
+    background-color: white;
+    height: 560px;
+    width: 273px;
+    border-bottom-right-radius: 190px;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+#menuOff{
+ display: none;
 }
 .dflex {
     display: flex;
@@ -72,18 +107,18 @@ nav {
 .userMap p:hover{
     cursor: pointer;
 }
-
 .dashboardLeft {
     background-color: white;
+    height: 560px;
+    width: 273px;
+    border-bottom-right-radius: 190px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 20%;
-    height: 560px;
     padding-top: 70px;
     padding-left: 40px;
-    border-bottom-right-radius: 190px;
 }
+
 
 .dashboardRight {
     width: 70%;
@@ -140,7 +175,15 @@ nav {
     opacity: 1;
     text-align: center;
 }
-
+#selectBtn{
+    margin-top: 10px;
+    padding: 4px 12px 4px 12px;
+    border: none;
+    border-radius: 7px;
+}
+#selectBtn:hover{
+    background-color: #d1d0d0;
+}
 .fileUpload {
     margin: 12px 12px 16px 12px;
     padding: 20px;
@@ -165,10 +208,23 @@ nav {
     padding-left: 10px;
     box-shadow: 0px 0px 10px #0000000D;
 }
+#submitBTN{
+    background-color: #F29441;
+    color: white; width: 175px;
+    padding: 8px 0 8px 0;
+    font-size: 19px;
+    border: none;
+    border-radius: 10px;
+}
+#submitBTN:hover{
+    background-color: #f5780a;
+}
 .bannerImg{
     margin-top: -200px;
 }
 .bannerImg img{
-    width: 490px;
+    min-width: 373px;
+    max-width: 100%;
+    /* width: 490px; */
     height: 500px;
 }
