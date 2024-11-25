@@ -30,7 +30,6 @@ nav {
 
 .navRight {
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
@@ -99,7 +98,10 @@ nav {
     align-items: center;
     gap: 10px;
 }
-
+.dflex p:hover{
+    color: #F29441;
+    cursor: pointer !important;
+}
 .dflex img {
     width: 28px;
     height: 28px;
@@ -226,8 +228,15 @@ nav {
     margin-top: -200px;
 }
 .bannerImg img{
-    /* min-width: 373px;
-    max-width: 100%; */
-    width: 100%;
+    width: 400px;
     height: 500px;
 }
+/* .backgroundBanner{
+    position: absolute;
+    right: 0;
+    top: 483px; 
+}
+.backgroundBanner img{
+    width: 215px;
+    height: 210px;
+} */
